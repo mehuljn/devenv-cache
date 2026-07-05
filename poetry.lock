@@ -1,0 +1,17 @@
+[[package]]
+name = "fastapi"
+version = "0.110.0"
+description = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+category = "main"
+
+[[package]]
+name = "pydantic"
+version = "2.6.4"
+description = "Data validation and settings management using python type hints"
+category = "main"
+
+[[package]]
+name = "structlog"
+version = "24.1.0"
+description = "Structured logging for Python"
+category = "main"

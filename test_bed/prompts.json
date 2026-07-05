@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fastapi_middleware",
+    "prompt": "Create a FastAPI middleware to track custom request headers.",
+    "query": "fastapi middleware"
+  },
+  {
+    "id": "pydantic_custom_validation",
+    "prompt": "Write a Pydantic model with a custom validator check for date format.",
+    "query": "pydantic validator date"
+  },
+  {
+    "id": "structlog_format",
+    "prompt": "Configure structlog to log to json format in standard out.",
+    "query": "structlog json processor"
+  }
+]
