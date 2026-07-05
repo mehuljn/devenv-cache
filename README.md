@@ -1,6 +1,8 @@
 # DevEnv-Cache 🚀
 
 > **AI-Native Local Dependency and Documentation Context Cache via Model Context Protocol (MCP)**
+> 
+> *Built with help from **Antigravity**, Google DeepMind's agentic AI coding assistant.*
 
 `DevEnv-Cache` is a lightweight, zero-dependency developer tool designed to bridge the gap between AI coding assistants (like Cursor, Claude Code, Copilot, and Antigravity) and your project's local dependencies. It parses project lockfiles, builds a local SQLite full-text search database of package READMEs/APIs, and serves this context offline instantly via an MCP server.
 
@@ -95,3 +97,9 @@ To see the comparison report between coding **with** and **without** `DevEnv-Cac
 uv run python test_bed/run_benchmark.py
 ```
 Open [docs/benchmark_report.md](file:///Users/mehuljani/agycli/devenv-cache/docs/benchmark_report.md) to inspect the latency differences (e.g. **0.0004s** local SQLite search vs. **0.15s** remote HTTP fetches) and token savings.
+
+---
+
+## 🤖 Built with Antigravity
+
+This repository was designed, built, and tested in partnership with **Antigravity**, Google DeepMind's agentic AI coding assistant. The development process adhered strictly to Test-Driven Development (TDD) protocols, resulting in a clean, zero-dependency implementation of the MCP standard.
